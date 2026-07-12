@@ -1,0 +1,548 @@
+{
+  "metadata": {
+    "title": "Reyes — Toshkentdagi Digital Marketing Agentlik | SMM, SEO, YouTube sotuv",
+    "description": "Reyes — Toshkent va Namangandagi professional digital marketing agentlik. YouTube orqali sotuv, web-sayt yaratish, SMM, SEO optimizatsiya, Google Ads, video production. Xalqaro bozorga chiqish uchun marketing yechimlari. 500M+ so'm sotuv, $1.5M eksport natijalari.",
+    "keywords": "digital marketing agentlik Toshkent, SMM xizmati Toshkent, SEO optimizatsiya O'zbekiston, web sayt yaratish, Google Ads reklama, YouTube orqali sotuv, video production, Namangan marketing, xalqaro bozor, sotuv bo'limi tashkil etish, Instagram reklama, Telegram marketing, brending xizmati"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "portfolio": "Portfolio",
+    "about": "Biz haqimizda",
+    "team": "Jamoa",
+    "contact": "Bog'lanish",
+    "cta": "Konsultatsiya"
+  },
+  "hero": {
+    "sub": "Digital Marketing Agency",
+    "title1": "Biznesingiz uchun",
+    "highlight": "xalqaro darajadagi",
+    "title2": "digital marketing",
+    "description": "Reyes — bu shunchaki agentlik emas. Biz sizning biznesingizga YouTube, web-sayt va reklama orqali yangi darajadagi sotuv tizimini olib kiramiz. Yevropa va Arabiston bozorlariga chiqishda yordam beramiz.",
+    "cta": "Konsultatsiya",
+    "cta2": "Natijalarimizni ko'ring",
+    "stats": {
+      "sales": {
+        "value": "500M+",
+        "label": "so'm sotuv (YouTube)"
+      },
+      "export": {
+        "value": "$1.5M",
+        "label": "eksport (Web-sayt)"
+      },
+      "views": {
+        "value": "2.5M+",
+        "label": "ko'rishlar (YouTube, 28 kun)"
+      },
+      "audience": {
+        "value": "100K+",
+        "label": "auditoriya (Instagram)"
+      },
+      "countries": {
+        "value": "3",
+        "label": "davlatga eksport tajribasi"
+      }
+    },
+    "location": "Toshkent",
+    "since": "2023-yildan beri",
+    "orbit": [
+      {
+        "label": "Reklama",
+        "desc": "Sotuvga yo'naltirilgan kampaniyalar"
+      },
+      {
+        "label": "Targeting",
+        "desc": "Aniq auditoriya"
+      },
+      {
+        "label": "Video Kontent",
+        "desc": "YouTube, Reels, TVC, Promo"
+      },
+      {
+        "label": "SMM & Kontent",
+        "desc": "Ijtimoiy tarmoqlar uchun kuchli kontent"
+      },
+      {
+        "label": "Xalqaro Bozor",
+        "desc": "Yevropa va Arabiston bozorlariga chiqish"
+      },
+      {
+        "label": "Analitika",
+        "desc": "Ma'lumotga asoslangan qarorlar"
+      },
+      {
+        "label": "Strategiya",
+        "desc": "Natija beradigan marketing rejalar"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Xizmatlar",
+    "title": "Qanday digital marketing xizmatlari ko'rsatamiz?",
+    "description": "O'zbek, Rus va Ingliz tillarida xalqaro darajadagi digital marketing xizmatlari. Har bir xizmat real sotuv natijalariga yo'naltirilgan.",
+    "items": {
+      "youtube": {
+        "title": "YouTube orqali sotuv",
+        "description": "Organik kontent strategiya bilan YouTube orqali real mijozlar va sotuvlarni keltiramiz. Qurilish sohasida reklamasiz 500M+ so'm sotuv natijasi. Kompaniyalar uchun YouTube marketing xizmati.",
+        "features": [
+          "Organik kontent strategiya",
+          "Sotuv funnel yaratish",
+          "YouTube Analytics tahlil",
+          "Kanal optimizatsiya"
+        ],
+        "bullets": [
+          "YouTube kanal strategiyasi va kontentplan",
+          "SEO-optimallashtirilgan video sarlavha va tavsiflar",
+          "Organik auditoriya o'stirish taktikasi",
+          "YouTube Shorts va Reels integratsiyasi",
+          "Konversiya voronkasi: tomosha → lid → sotuv",
+          "Haftalik analitika va hisobotlar",
+          "A/B testlar va kreativ optimallashtirish",
+          "Raqobatchilar tahlili va trend monitoring"
+        ]
+      },
+      "web": {
+        "title": "Web-sayt orqali sotuv",
+        "description": "Konversiyaga yo'naltirilgan web-saytlar yaratamiz. SEO + Google Ads bilan $1,500,000 eksport natijalarimiz bor. Web sayt orqali sotuv qilish xizmati.",
+        "features": [
+          "Landing page",
+          "E-commerce sayt",
+          "Konversiya optimizatsiya",
+          "A/B testing"
+        ],
+        "bullets": [
+          "Konversiyaga yo'naltirilgan landing page ishlab chiqish",
+          "SEO-optimallashtirilgan sayt tuzilishi",
+          "Google Ads va Yandex Direct integratsiyasi",
+          "Mobile-first dizayn va tezkor yuklash",
+          "CRM va analitika tizimlarini ulash",
+          "A/B testing va konversiya optimallashtirish",
+          "Xalqaro bozor uchun ko'p tilli saytlar",
+          "E-commerce va onlayn to'lov tizimlari"
+        ]
+      },
+      "smm": {
+        "title": "SMM Marketing",
+        "description": "Instagram, Telegram, Facebook'da brendingizni boshqaramiz. Ijtimoiy tarmoqlar orqali 400M+ so'mlik sotuv natijalarimiz. SMM xizmati.",
+        "features": [
+          "Kontent yaratish",
+          "Reels va Stories",
+          "Targetlangan reklama",
+          "Community management"
+        ],
+        "bullets": [
+          "Instagram, Telegram, Facebook strategiyasi",
+          "Kontentplan va professional kontent yaratish",
+          "Reels, Stories va carousel dizayn",
+          "Target reklama kampaniyalarini boshqarish",
+          "Auditoriya bilan muloqot va komyuniti",
+          "Influencer marketing va hamkorliklar",
+          "Haftalik analitika va ROI hisobotlari",
+          "Brend ovozi va vizual stil ishlab chiqish"
+        ]
+      },
+      "video": {
+        "title": "Video Production",
+        "description": "Reklama videolar, YouTube kontentlar, motion graphics va ijtimoiy tarmoqlar uchun professional videolar. Professional video production xizmati.",
+        "features": [
+          "Reklama roliklari",
+          "YouTube kontent",
+          "Motion graphics",
+          "Reels/Shorts"
+        ],
+        "bullets": [
+          "Reklama roliklarini ishlab chiqish",
+          "YouTube va ijtimoiy tarmoqlar uchun kontent",
+          "Motion graphics va animatsiya",
+          "Professional suratga olish va montaj",
+          "Ssenariy yozish va kreativ konsept",
+          "Drone va 360° video",
+          "Mahsulot va xizmat prezentatsiya videolari",
+          "Brend storis va hujjatli filmlar"
+        ]
+      },
+      "seo": {
+        "title": "SEO Optimizatsiya",
+        "description": "Google va Yandex'da saytingizni birinchi sahifaga chiqaramiz. Texnik SEO, kontent optimizatsiya va link building. O'zbekiston bo'yicha SEO xizmati.",
+        "features": [
+          "Texnik SEO audit",
+          "On-page optimizatsiya",
+          "Link building",
+          "Mahalliy SEO"
+        ],
+        "bullets": [
+          "Texnik SEO audit va optimallashtirish",
+          "Kalit so'zlar tahlili va strategiyasi",
+          "Kontent yaratish va optimizatsiya",
+          "Link building va domen avtoriteti oshirish",
+          "Google va Yandex'da birinchi sahifa",
+          "Local SEO — Google Maps va Yandex Spravka",
+          "Raqobatchilar tahlili va gap analysis",
+          "Oylik hisobotlar va KPI monitoring"
+        ]
+      },
+      "ads": {
+        "title": "Google Ads reklama",
+        "description": "Google Ads, Yandex Direct va ijtimoiy tarmoq reklamalari. Maqsadli auditoriyangizga to'g'ri reklama yetkazamiz. ROI'ni maksimal darajaga ko'taramiz.",
+        "features": [
+          "Google Search Ads",
+          "Display reklama",
+          "Remarketing",
+          "YouTube Ads"
+        ],
+        "bullets": [
+          "Google Search va Display reklama",
+          "Yandex Direct kampaniyalarini boshqarish",
+          "Remarketing va retargeting strategiyalari",
+          "Kalit so'z tahlili va bidding optimallashtirish",
+          "Konversiya kuzatuv va attribution modellari",
+          "A/B testing — e'lonlar, landing page, auditoriya",
+          "Byudjet optimallashtirish va ROI maksimallashtirish",
+          "YouTube Ads va video reklama kampaniyalari"
+        ]
+      },
+      "sales": {
+        "title": "Sotuv bo'limini tashkil etish",
+        "description": "Kompaniyangizda sotuv jarayonini noldan quramiz — CRM tizimi, sotuv skriptlari, xodimlarni trening qilish va doimiy monitoring.",
+        "features": [
+          "CRM joriy etish",
+          "Sotuv skriptlari",
+          "Xodimlar treningi",
+          "KPI monitoring"
+        ],
+        "bullets": [
+          "CRM tizimini tanlash va joriy etish",
+          "Sotuv skriptlari va shablonlar tayyorlash",
+          "Sotuv jamoasini trening qilish",
+          "KPI tizimi va monitoring o'rnatish",
+          "Sotuv voronkasini qurish va optimallashtirish",
+          "Avtomatlashtirish va chatbotlar",
+          "Mijozlar bazasini segmentatsiya qilish",
+          "Oylik sotuv hisobotlari va tahlil"
+        ]
+      },
+      "international": {
+        "title": "Xalqaro bozorga chiqish",
+        "description": "O'zbekiston kompaniyalarini Yevropa va Arabiston bozorlariga olib chiqamiz. Lokalizatsiya, xalqaro SEO va marketing strategiya.",
+        "features": [
+          "Bozor tahlili",
+          "Kontent lokalizatsiya",
+          "Sotuv kanallari",
+          "Eksport strategiya"
+        ],
+        "bullets": [
+          "Maqsadli bozorni tahlil qilish",
+          "Web-sayt va kontentni lokalizatsiya qilish",
+          "Xalqaro SEO va Google Ads strategiyasi",
+          "Eksport uchun marketing materiallar tayyorlash",
+          "B2B platformalarda presence yaratish",
+          "Xalqaro hamkorlar bilan aloqalar o'rnatish",
+          "Savdo missiyalari va ko'rgazmalar strategiyasi",
+          "Cross-border e-commerce integratsiyasi"
+        ]
+      }
+    },
+    "viewAll": "Barcha xizmatlar",
+    "learnMore": "Batafsil"
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "title": "Real natijalar, real raqamlar",
+    "description": "Biz faqat chiroyli reklama emas — pul keltiradigan natijalar qilamiz. Kompaniyalar bilan ishlagan tajribamiz.",
+    "items": {
+      "construction": {
+        "sector": "Qurilish sohasi",
+        "results": [
+          "YouTube orqali 500M+ so'm sotuv",
+          "1000+ ta qiziqish (lid)",
+          "Organik — reklamasiz natija"
+        ]
+      },
+      "export": {
+        "sector": "Eksport (Web-sayt orqali)",
+        "results": [
+          "Web-sayt orqali $1,500,000 eksport",
+          "Xalqaro mijozlar bazasi yaratildi",
+          "SEO + Google Ads strategiya"
+        ]
+      },
+      "social": {
+        "sector": "Ijtimoiy tarmoqlar orqali sotuv",
+        "results": [
+          "400M+ so'm sotuv natijasi",
+          "Organik + targetlangan reklama",
+          "Instagram va Telegram"
+        ]
+      },
+      "education": {
+        "sector": "Ta'lim sohasi",
+        "results": [
+          "100M so'mga yaqin sotuv",
+          "O'quvchilar oqimini 3x oshirish",
+          "SMM + Video kontent"
+        ]
+      },
+      "snack": {
+        "sector": "Snack sohasi",
+        "results": [
+          "7 shaharga diller tarmoqi",
+          "3 davlatga eksport",
+          "Brend tanilishini 5x oshirish"
+        ]
+      },
+      "medical": {
+        "sector": "Tibbiyot yo'nalishi",
+        "results": [
+          "80,000 organik auditoriya",
+          "YouTube + Instagram strategiya",
+          "Ishonch va brend qurish"
+        ]
+      }
+    },
+    "viewAll": "Barcha loyihalar",
+    "viewCase": "Batafsil ko'rish",
+    "featured": {
+      "badge": "YouTube natija",
+      "title": "28 kunda 2.5 mln ko'rish",
+      "desc": "Bitta kanalda organik kontent strategiyamiz bilan so'nggi 28 kunda 2,503,722 ko'rish, 9,500+ soat tomosha vaqti va +1,400 yangi obunachiga erishdik — reklamasiz, sof organik o'sish.",
+      "stat1": {
+        "value": "2.5M+",
+        "label": "ko'rishlar"
+      },
+      "stat2": {
+        "value": "9.5K+",
+        "label": "soat tomosha"
+      },
+      "stat3": {
+        "value": "+1.4K",
+        "label": "obunachi"
+      },
+      "stat4": {
+        "value": ">999%",
+        "label": "o'sish"
+      },
+      "cta": "Portfolioni ko'rish"
+    }
+  },
+  "about": {
+    "badge": "Biz haqimizda",
+    "title": "Reyes — natijaga ishlaydigan digital marketing agentlik",
+    "description": "2023-yildan beri O'zbekiston bo'yicha kompaniyalarga digital marketing xizmatlari ko'rsatib kelamiz. Biz reklama qilmaymiz — sotuv qilamiz. O'zbek, Rus va Ingliz tillarida xizmat ko'rsatamiz.",
+    "founder": "Asoschi",
+    "founderName": "Nurmuhammad Muhammedov",
+    "founderRole": "CEO & Founder",
+    "founderBio": "Digital marketing sohasida tajribali mutaxassis. O'zbekiston kompaniyalarini xalqaro bozorga chiqarish bo'yicha strategiyalar ishlab chiqadi.",
+    "year": "2023",
+    "yearLabel": "yildan beri ishlaymiz",
+    "mission": "Missiyamiz",
+    "missionText": "O'zbekiston brendlarini xalqaro darajadagi digital marketing bilan qurollantirib, real sotuv natijalariga erishish. Har bir mijozning biznesini o'stirish — bizning asosiy maqsadimiz.",
+    "values": {
+      "results": {
+        "label": "Natija — birinchi",
+        "description": "Har bir strategiya sotuv raqamlari bilan o'lchanadi. Biz reklama emas, sotuv qilamiz."
+      },
+      "international": {
+        "label": "Xalqaro standart",
+        "description": "O'zbek, Rus, Ingliz tillarida xizmat. Xalqaro bozor tajribasi."
+      },
+      "data": {
+        "label": "Ma'lumotga asoslangan",
+        "description": "Har bir qaror analitika va raqamlarga tayangan. A/B testlar, KPI monitoring."
+      },
+      "partnership": {
+        "label": "Uzoq muddatli hamkorlik",
+        "description": "Mijoz bilan birga o'samiz. Uzoq muddatli aloqa va doimiy qo'llab-quvvatlash."
+      }
+    }
+  },
+  "team": {
+    "badge": "Bizning jamoa",
+    "title": "Professional jamoa",
+    "description": "Reyes jamoasi — har biri o'z sohasining mutaxassisi. Birgalikda real natijalar yaratamiz.",
+    "members": [
+      {
+        "name": "Marketolog",
+        "role": "Marketing strategiya"
+      },
+      {
+        "name": "Digital Marketolog",
+        "role": "Digital kampaniyalar"
+      },
+      {
+        "name": "SMM Menjer",
+        "role": "Ijtimoiy tarmoqlar"
+      },
+      {
+        "name": "Videograf",
+        "role": "Video production"
+      },
+      {
+        "name": "Grafik Dizayner",
+        "role": "Vizual dizayn"
+      },
+      {
+        "name": "Kontent Menjer",
+        "role": "Kontent strategiya"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Mijozlar tajribasi",
+    "title": "Mijozlarimiz biz haqimizda nima deydi?",
+    "items": [
+      {
+        "name": "Qurilish kompaniyasi rahbari",
+        "text": "Reyes bilan ishlash bizning sotuv ko'rsatkichlarimizni tubdan o'zgartirdi. YouTube orqali 500M+ so'm sotuv qildik — reklamasiz, organik. Natija ajoyib.",
+        "rating": 5
+      },
+      {
+        "name": "Eksport kompaniyasi direktori",
+        "text": "Web-sayt orqali $1,500,000 eksport qildik. Reyes jamoasi professional va mas'uliyatli ishladi. Xalqaro bozorda bizni ko'rinadigan qilishdi.",
+        "rating": 5
+      },
+      {
+        "name": "Snack brendi egasi",
+        "text": "7 shaharga diller olib keldik, 3 davlatga eksport boshladik. Reyes marketing strategiyasi bizga katta yordam berdi.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Ko'p so'raladigan savollar",
+    "title": "Savollaringizga javoblar",
+    "items": [
+      {
+        "question": "Reyes qanday digital marketing xizmatlari ko'rsatadi?",
+        "answer": "Biz YouTube orqali sotuv, web-sayt ishlab chiqish, SMM marketing, SEO optimizatsiya, Google Ads reklama, video production, sotuv bo'limini tashkil etish va xalqaro bozorga chiqish bo'yicha xizmatlar ko'rsatamiz."
+      },
+      {
+        "question": "SMM xizmati narxi qancha?",
+        "answer": "SMM xizmati narxi loyihaning hajmi va murakkabligiga qarab belgilanadi. Biz har bir mijoz uchun individual narx taklif qilamiz. Bepul konsultatsiya olish uchun murojaat qiling."
+      },
+      {
+        "question": "Boshqa shaharlardan ham murojaat qilsa bo'ladimi?",
+        "answer": "Ha, butun O'zbekiston bo'yicha xizmat ko'rsatamiz. Shuningdek, xalqaro mijozlar bilan ham ishlaymiz."
+      },
+      {
+        "question": "YouTube orqali sotuv qanday ishlaydi?",
+        "answer": "Biz organik kontent strategiya yaratamiz — maqsadli auditoriyangiz uchun qimmatli YouTube videolar tayyorlaymiz. Bu videolar orqali brend tanilishi oshadi va sotuv funnel orqali real mijozlar keladi. Qurilish sohasida 500M+ so'm natija oldik."
+      },
+      {
+        "question": "Web-sayt yaratish narxi qancha?",
+        "answer": "Web-sayt narxi loyiha turiga qarab o'zgaradi — landing page, korporativ sayt yoki e-commerce. Biz konversiyaga yo'naltirilgan saytlar yaratamiz va SEO bilan birgalikda sotuv natijalarini kafolatlaymiz."
+      },
+      {
+        "question": "Qaysi tillarda xizmat ko'rsatasizlar?",
+        "answer": "Biz O'zbek, Rus va Ingliz tillarida xizmat ko'rsatamiz. Xalqaro bozorga chiqmoqchi bo'lgan kompaniyalar uchun ham digital marketing strategiyalar ishlab chiqamiz."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Bog'lanish",
+    "title": "Loyihangizga konsultatsiya oling",
+    "description": "Bepul konsultatsiya — 24 soat ichida javob beramiz.",
+    "form": {
+      "name": "Ismingiz",
+      "phone": "Telefon raqamingiz",
+      "email": "Email manzilingiz",
+      "company": "Kompaniya nomi",
+      "service": "Qiziqtirgan xizmat",
+      "message": "Loyihangiz haqida batafsil yozing",
+      "submit": "Yuborish",
+      "sending": "Yuborilmoqda...",
+      "success": "Xabaringiz muvaffaqiyatli yuborildi! Tez orada aloqaga chiqamiz.",
+      "budget": "Marketing uchun oyiga qancha byudjet ajrata olasiz?"
+    },
+    "info": {
+      "address": "Manzil",
+      "addressValue": "Toshkent, Yunusobod tumani, Kozitoron ko'chasi 9",
+      "phone": "Telefon",
+      "phoneValue": "+998 77 007 76 56",
+      "workHours": "Ish vaqti",
+      "workHoursValue": "Dush-Jum: 9:00 — 18:00"
+    }
+  },
+  "footer": {
+    "description": "Reyes —  professional digital marketing agentlik. YouTube sotuv, web-sayt, SMM, SEO, Google Ads va video production xizmatlari. Real natijalar, real raqamlar.",
+    "quickLinks": "Tezkor havolalar",
+    "services": "Xizmatlar",
+    "company": "Kompaniya",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "since": "2023-yildan beri ishlaymiz"
+  },
+  "partners": {
+    "badge": "Hamkorlar",
+    "title": "Biz bilan ishlaganlar",
+    "description": "Turli sohalardagi kompaniyalar bilan muvaffaqiyatli hamkorlik tajribamiz."
+  },
+  "whyus": {
+    "badge": "Nega aynan biz?",
+    "title": "Raqobatchilardan farqimiz",
+    "description": "Oddiy agentlik emas — natijaga ishlaydigan hamkor",
+    "others": "Boshqa agentliklar",
+    "us": "Reyes Agency",
+    "comparison": [
+      {
+        "them": "YouTube'da reklama qiladi, lekin sotuv voronkasi yo'q",
+        "us": "YouTube orqali 500M+ so'm organik sotuv — to'liq voronka"
+      },
+      {
+        "them": "Sayt yaratadi, lekin konversiya optimizatsiyasi yo'q",
+        "us": "Web-sayt orqali $1.5M eksport — SEO + Google Ads integratsiya"
+      },
+      {
+        "them": "SMM faqat post va stories — sotuv strategyasiz",
+        "us": "SMM strategiya + target reklama = 400M+ so'm sotuv natija"
+      },
+      {
+        "them": "Google Ads'da byudjet sarflaydi, ROI kuzatmaydi",
+        "us": "Google Ads + analitika — har bir so'mning qaytimini kuzatamiz"
+      },
+      {
+        "them": "Faqat mahalliy bozorda ishlaydi",
+        "us": "Yevropa va Arabiston bozorlariga chiqishda yordam beramiz"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Qanday ishlaymiz?",
+    "title": "Natijaga olib boradigan jarayon",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Tahlil",
+        "desc": "Biznesingiz, raqobatchilar va maqsadli auditoriyani chuqur o'rganamiz"
+      },
+      {
+        "num": "02",
+        "title": "Strategiya",
+        "desc": "Ma'lumotlarga asoslangan individual marketing strategiya ishlab chiqamiz"
+      },
+      {
+        "num": "03",
+        "title": "Amalga oshirish",
+        "desc": "YouTube, Web-sayt, SMM va reklama kanallarini professional ishga tushiramiz"
+      },
+      {
+        "num": "04",
+        "title": "Optimallashtirish",
+        "desc": "Haftalik tahlil va hisobotlar orqali natijalarni doimiy yaxshilaymiz"
+      }
+    ]
+  },
+  "ticker": {
+    "items": [
+      "500M+ so'm sotuv — YouTube",
+      "2.5 mln ko'rish — 28 kunda",
+      "$1,500,000 eksport — Web-sayt",
+      "100K+ auditoriya — Instagram",
+      "3 davlatga eksport",
+      "+1,400 obunachi — organik"
+    ]
+  },
+  "quote": {
+    "text": "Reyes — bu shunchaki reklama emas, natijaga bo'lgan ishonch. Biz avval biznesingizni chuqur o'rganamiz, keyin nima foyda berishini hal qilamiz. Shoshqaloqliksiz, ortiqcha xarajatsiz — faqat sotuvga aylanadigan marketing.",
+    "author": "Nurmuhammad Muhammedov",
+    "role": "Asoschi va CEO"
+  }
+}

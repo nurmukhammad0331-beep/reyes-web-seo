@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "title": "Reyes — Digital Marketing Agency Tashkent | SMM, SEO, YouTube Sales",
+    "description": "Reyes — professional digital marketing agency in Tashkent, Uzbekistan. YouTube sales, website development, SMM, SEO, Google Ads, video production. International market entry. 500M+ UZS sales, $1.5M export results.",
+    "keywords": "digital marketing agency Tashkent, SMM Uzbekistan, SEO services, website development, Google Ads, YouTube marketing, video production, Namangan marketing, Central Asia"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "team": "Team",
+    "contact": "Contact",
+    "cta": "Consultation"
+  },
+  "hero": {
+    "sub": "Digital Marketing Agency",
+    "title1": "International-level",
+    "highlight": "digital marketing",
+    "title2": "for your business",
+    "description": "Reyes is not just an agency. We bring a new level of sales system to your business through YouTube, websites and advertising. We help you enter European and Arab markets.",
+    "cta": "Consultation",
+    "cta2": "See our results",
+    "stats": {
+      "sales": {
+        "value": "500M+",
+        "label": "UZS sales (YouTube)"
+      },
+      "export": {
+        "value": "$1.5M",
+        "label": "export (Website)"
+      },
+      "views": {
+        "value": "2.5M+",
+        "label": "views (YouTube, 28 days)"
+      },
+      "audience": {
+        "value": "100K+",
+        "label": "audience (Instagram)"
+      },
+      "countries": {
+        "value": "3",
+        "label": "countries export experience"
+      }
+    },
+    "location": "Tashkent",
+    "since": "since 2023",
+    "orbit": [
+      {
+        "label": "Advertising",
+        "desc": "Sales-driven campaigns"
+      },
+      {
+        "label": "Targeting",
+        "desc": "Precise audience"
+      },
+      {
+        "label": "Video Content",
+        "desc": "YouTube, Reels, TVC, Promo"
+      },
+      {
+        "label": "SMM & Content",
+        "desc": "Powerful social media content"
+      },
+      {
+        "label": "Global Markets",
+        "desc": "Entering EU and Arab markets"
+      },
+      {
+        "label": "Analytics",
+        "desc": "Data-driven decisions"
+      },
+      {
+        "label": "Strategy",
+        "desc": "Marketing plans that deliver"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Digital marketing services we provide",
+    "description": "International-level digital marketing in 3 languages. Every service is focused on real sales results.",
+    "items": {
+      "youtube": {
+        "title": "YouTube Sales",
+        "description": "Organic content strategy to attract real customers via YouTube. 500M+ UZS in sales without ads in construction sector.",
+        "features": [
+          "Content strategy",
+          "Sales funnel",
+          "YouTube Analytics",
+          "Channel optimization"
+        ],
+        "bullets": [
+          "YouTube channel strategy and content plan",
+          "SEO-optimized video titles and descriptions",
+          "Organic audience growth tactics",
+          "YouTube Shorts and Reels integration",
+          "Conversion funnel: view → lead → sale",
+          "Weekly analytics and reports",
+          "A/B tests and creative optimization",
+          "Competitor analysis and trend monitoring"
+        ]
+      },
+      "web": {
+        "title": "Website Sales",
+        "description": "Conversion-focused websites. $1.5M export results via SEO + Google Ads. Website development.",
+        "features": [
+          "Landing pages",
+          "E-commerce",
+          "CRO",
+          "A/B testing"
+        ],
+        "bullets": [
+          "Conversion-focused landing page development",
+          "SEO-optimized site structure",
+          "Google Ads and Yandex Direct integration",
+          "Mobile-first design and fast loading",
+          "CRM and analytics integration",
+          "A/B testing and conversion optimization",
+          "Multilingual sites for international markets",
+          "E-commerce and online payment systems"
+        ]
+      },
+      "smm": {
+        "title": "SMM Marketing",
+        "description": "Brand management on Instagram, Telegram, Facebook. 400M+ UZS in social media sales.",
+        "features": [
+          "Content creation",
+          "Reels/Stories",
+          "Targeted ads",
+          "Community management"
+        ],
+        "bullets": [
+          "Instagram, Telegram, Facebook strategy",
+          "Content plan and professional content creation",
+          "Reels, Stories and carousel design",
+          "Targeted ad campaign management",
+          "Audience engagement and community",
+          "Influencer marketing and collaborations",
+          "Weekly analytics and ROI reports",
+          "Brand voice and visual style development"
+        ]
+      },
+      "video": {
+        "title": "Video Production",
+        "description": "Ad videos, YouTube content, motion graphics. Professional professional video production.",
+        "features": [
+          "Ad videos",
+          "YouTube content",
+          "Motion graphics",
+          "Reels/Shorts"
+        ],
+        "bullets": [
+          "Commercial video production",
+          "Content for YouTube and social media",
+          "Motion graphics and animation",
+          "Professional filming and editing",
+          "Scriptwriting and creative concept",
+          "Drone and 360° video",
+          "Product and service presentation videos",
+          "Brand stories and documentaries"
+        ]
+      },
+      "seo": {
+        "title": "SEO Optimization",
+        "description": "First page of Google and Yandex. Technical SEO, content optimization and link building.",
+        "features": [
+          "Technical audit",
+          "On-page SEO",
+          "Link building",
+          "Local SEO"
+        ],
+        "bullets": [
+          "Technical SEO audit and optimization",
+          "Keyword research and strategy",
+          "Content creation and optimization",
+          "Link building and domain authority growth",
+          "First page on Google and Yandex",
+          "Local SEO — Google Maps and Yandex Directory",
+          "Competitor and gap analysis",
+          "Monthly reports and KPI monitoring"
+        ]
+      },
+      "ads": {
+        "title": "Google Ads",
+        "description": "Google Ads and Yandex Direct campaigns. Maximum ROI for businesses.",
+        "features": [
+          "Search Ads",
+          "Display",
+          "Remarketing",
+          "YouTube Ads"
+        ],
+        "bullets": [
+          "Google Search and Display advertising",
+          "Yandex Direct campaign management",
+          "Remarketing and retargeting strategies",
+          "Keyword analysis and bidding optimization",
+          "Conversion tracking and attribution models",
+          "A/B testing — ads, landing pages, audiences",
+          "Budget optimization and ROI maximization",
+          "YouTube Ads and video campaigns"
+        ]
+      },
+      "sales": {
+        "title": "Sales Department Setup",
+        "description": "Build your sales process from scratch — CRM, scripts, training and monitoring.",
+        "features": [
+          "CRM setup",
+          "Sales scripts",
+          "Team training",
+          "KPI monitoring"
+        ],
+        "bullets": [
+          "CRM selection and implementation",
+          "Sales scripts and template preparation",
+          "Sales team training",
+          "KPI system and monitoring setup",
+          "Sales funnel building and optimization",
+          "Automation and chatbots",
+          "Customer base segmentation",
+          "Monthly sales reports and analysis"
+        ]
+      },
+      "international": {
+        "title": "International Market Entry",
+        "description": "We help Uzbek companies enter European and Arab markets. Localization, international SEO and marketing strategy.",
+        "features": [
+          "Market analysis",
+          "Localization",
+          "Sales channels",
+          "Export strategy"
+        ],
+        "bullets": [
+          "Target market analysis",
+          "Website and content localization",
+          "International SEO and Google Ads strategy",
+          "Export marketing materials preparation",
+          "Presence on B2B platforms",
+          "Building international partner relations",
+          "Trade missions and exhibitions strategy",
+          "Cross-border e-commerce integration"
+        ]
+      }
+    },
+    "viewAll": "All services",
+    "learnMore": "Learn more"
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "title": "Real results, real numbers",
+    "description": "We don't just advertise — we generate revenue. Experience with companies.",
+    "items": {
+      "construction": {
+        "sector": "Construction",
+        "results": [
+          "500M+ UZS via YouTube",
+          "1000+ leads",
+          "Organic — zero ad spend"
+        ]
+      },
+      "export": {
+        "sector": "Export (Website)",
+        "results": [
+          "$1,500,000 export",
+          "International client base",
+          "SEO + Google Ads"
+        ]
+      },
+      "social": {
+        "sector": "Social Media Sales",
+        "results": [
+          "400M+ UZS sales",
+          "Organic + targeted",
+          "Instagram & Telegram"
+        ]
+      },
+      "education": {
+        "sector": "Education",
+        "results": [
+          "~100M UZS sales",
+          "3x student enrollment growth",
+          "SMM + Video"
+        ]
+      },
+      "snack": {
+        "sector": "Snack Industry",
+        "results": [
+          "Dealers in 7 cities",
+          "Export to 3 countries",
+          "5x brand awareness"
+        ]
+      },
+      "medical": {
+        "sector": "Healthcare",
+        "results": [
+          "80,000 organic audience",
+          "YouTube + Instagram",
+          "Trust building"
+        ]
+      }
+    },
+    "viewAll": "All projects",
+    "viewCase": "View details",
+    "featured": {
+      "badge": "YouTube result",
+      "title": "2.5M views in 28 days",
+      "desc": "On a single channel, our organic content strategy delivered 2,503,722 views, 9,500+ watch hours and +1,400 new subscribers in the last 28 days — no ads, pure organic growth.",
+      "stat1": {
+        "value": "2.5M+",
+        "label": "views"
+      },
+      "stat2": {
+        "value": "9.5K+",
+        "label": "watch hours"
+      },
+      "stat3": {
+        "value": "+1.4K",
+        "label": "subscribers"
+      },
+      "stat4": {
+        "value": ">999%",
+        "label": "growth"
+      },
+      "cta": "View portfolio"
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Reyes — results-driven digital marketing agency",
+    "description": "Since 2023, providing digital marketing services for companies across Uzbekistan. We don't do ads — we do sales.",
+    "founder": "Founder",
+    "founderName": "Nurmuhammad Mukhammedov",
+    "founderRole": "CEO & Founder",
+    "founderBio": "Digital marketing expert. Develops strategies for Uzbek companies entering international markets.",
+    "year": "2023",
+    "yearLabel": "in business",
+    "mission": "Our Mission",
+    "missionText": "Empower Uzbek brands with international-level digital marketing to achieve real sales results.",
+    "values": {
+      "results": {
+        "label": "Results first",
+        "description": "Every strategy is measured by sales numbers."
+      },
+      "international": {
+        "label": "International standard",
+        "description": "Services in 3 languages. International experience."
+      },
+      "data": {
+        "label": "Data-driven",
+        "description": "Every decision backed by analytics and data."
+      },
+      "partnership": {
+        "label": "Long-term partnership",
+        "description": "We grow with our clients."
+      }
+    }
+  },
+  "team": {
+    "badge": "Team",
+    "title": "Professional team",
+    "description": "Each one an expert in their field.",
+    "members": [
+      {
+        "name": "Marketer",
+        "role": "Strategy"
+      },
+      {
+        "name": "Digital Marketer",
+        "role": "Campaigns"
+      },
+      {
+        "name": "SMM Manager",
+        "role": "Social media"
+      },
+      {
+        "name": "Videographer",
+        "role": "Video production"
+      },
+      {
+        "name": "Graphic Designer",
+        "role": "Visual design"
+      },
+      {
+        "name": "Content Manager",
+        "role": "Content strategy"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Client Reviews",
+    "title": "What our clients say",
+    "items": [
+      {
+        "name": "Construction Company CEO",
+        "text": "Working with Reyes transformed our sales. 500M+ UZS via YouTube, completely organic.",
+        "rating": 5
+      },
+      {
+        "name": "Export Company Director",
+        "text": "$1.5M export via website. Reyes team worked professionally and responsibly.",
+        "rating": 5
+      },
+      {
+        "name": "Snack Brand Owner",
+        "text": "Dealers in 7 cities, export to 3 countries. Reyes marketing strategy delivered great results.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What services does Reyes provide?",
+        "answer": "YouTube sales, website development, SMM, SEO, Google Ads, video production, sales department setup and international market entry."
+      },
+      {
+        "question": "Do you work with companies from other cities?",
+        "answer": "Yes, we work across Uzbekistan and with international clients."
+      },
+      {
+        "question": "What languages do you work in?",
+        "answer": "Uzbek, Russian and English. We help companies enter international markets."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Get a consultation for your project",
+    "description": "Free consultation — we respond within 24 hours.",
+    "form": {
+      "name": "Your name",
+      "phone": "Phone",
+      "email": "Email",
+      "company": "Company",
+      "service": "Service",
+      "message": "Tell us about your project",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Successfully sent! We'll contact you soon.",
+      "budget": "What monthly budget can you allocate for marketing?"
+    },
+    "info": {
+      "address": "Address",
+      "addressValue": "Tashkent, Yunusabad district, Kozitoron str. 9",
+      "phone": "Phone",
+      "phoneValue": "+998 77 007 76 56",
+      "workHours": "Working hours",
+      "workHoursValue": "Mon-Fri: 9:00 — 18:00"
+    }
+  },
+  "footer": {
+    "description": "Reyes — professional digital marketing agency in Tashkent. YouTube, SMM, SEO, Google Ads, video production. Real results.",
+    "quickLinks": "Links",
+    "services": "Services",
+    "company": "Company",
+    "rights": "All rights reserved.",
+    "since": "Since 2023"
+  },
+  "partners": {
+    "badge": "Partners",
+    "title": "Trusted by",
+    "description": "Successful partnerships with companies across industries."
+  },
+  "whyus": {
+    "badge": "Why us?",
+    "title": "What sets us apart",
+    "description": "Not just an agency — a results-driven partner",
+    "others": "Other agencies",
+    "us": "Reyes Agency",
+    "comparison": [
+      {
+        "them": "Run YouTube ads with no sales funnel",
+        "us": "500M+ UZS organic sales via YouTube — full funnel approach"
+      },
+      {
+        "them": "Build websites without conversion optimization",
+        "us": "$1.5M export via website — SEO + Google Ads integration"
+      },
+      {
+        "them": "SMM is just posts and stories — no sales strategy",
+        "us": "SMM strategy + targeting = 400M+ UZS in results"
+      },
+      {
+        "them": "Spend Google Ads budget without tracking ROI",
+        "us": "Google Ads + analytics — track return on every dollar"
+      },
+      {
+        "them": "Work only in local market",
+        "us": "We help enter European and Arab markets"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How we work",
+    "title": "A process that delivers results",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Analysis",
+        "desc": "Deep dive into your business, competitors and target audience"
+      },
+      {
+        "num": "02",
+        "title": "Strategy",
+        "desc": "Develop individual marketing strategy based on data"
+      },
+      {
+        "num": "03",
+        "title": "Execution",
+        "desc": "Professionally launch YouTube, website, SMM and ad channels"
+      },
+      {
+        "num": "04",
+        "title": "Optimization",
+        "desc": "Continuously improve results through weekly analytics and reports"
+      }
+    ]
+  },
+  "ticker": {
+    "items": [
+      "500M+ UZS sales — YouTube",
+      "2.5M views — in 28 days",
+      "$1,500,000 export — Website",
+      "100K+ audience — Instagram",
+      "Export to 3 countries",
+      "+1,400 subscribers — organic"
+    ]
+  },
+  "quote": {
+    "text": "Reyes is not just advertising — it is confidence in results. We first study your business deeply, then decide what truly serves it. No rushing, no excess spending — only marketing that turns into sales.",
+    "author": "Nurmuhammad Muhammedov",
+    "role": "Founder & CEO"
+  }
+}
