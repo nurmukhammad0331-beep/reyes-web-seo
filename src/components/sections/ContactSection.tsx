@@ -4,6 +4,7 @@ import { useState, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Reveal, Parallax } from '@/components/ui/Animation';
 import { IconMapPin, IconPhone, IconClock, IconInstagram, IconYoutube, IconTelegram, IconSend } from '@/components/ui/Icons';
+import { siteConfig } from '@/lib/seo';
 
 const serviceOptions = [
   'YouTube Sales',
@@ -276,9 +277,9 @@ export default function ContactSection() {
               </div>
 
               {[
-                { Icon: IconInstagram, name: 'Instagram', handle: '@reyes.agency', bg: 'bg-brand-blue/10', color: 'text-brand-blue', href: '#' },
-                { Icon: IconYoutube, name: 'YouTube', handle: 'Reyes Agency', bg: 'bg-brand-blue/10', color: 'text-brand-blue', href: '#' },
-                { Icon: IconTelegram, name: 'Telegram', handle: '@reyes_agency', bg: 'bg-brand-blue/10', color: 'text-brand-blue', href: '#' },
+                { Icon: IconInstagram, name: 'Instagram', handle: '@reyes.agency', bg: 'bg-brand-blue/10', color: 'text-brand-blue', href: siteConfig.socials.instagram },
+                { Icon: IconYoutube, name: 'YouTube', handle: 'Reyes Agency', bg: 'bg-brand-blue/10', color: 'text-brand-blue', href: siteConfig.socials.youtube },
+                { Icon: IconTelegram, name: 'Telegram', handle: '@reyes_agency', bg: 'bg-brand-blue/10', color: 'text-brand-blue', href: siteConfig.socials.telegram },
               ].map((s, i) => (
                 <a key={i} href={s.href} target="_blank" rel="noopener noreferrer" className="card flex items-center gap-3.5 !py-5 !px-6 no-underline">
                   <div className={`w-11 h-11 rounded-xl ${s.bg} flex items-center justify-center`}>

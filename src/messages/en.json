@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Reyes — Digital Marketing Agency Tashkent | SMM, SEO, YouTube Sales",
+    "title": "Reyes — Digital Marketing Agency | SMM, SEO, YouTube",
     "description": "Reyes — professional digital marketing agency in Tashkent, Uzbekistan. YouTube sales, website development, SMM, SEO, Google Ads, video production. International market entry. 500M+ UZS sales, $1.5M export results.",
     "keywords": "digital marketing agency Tashkent, SMM Uzbekistan, SEO services, website development, Google Ads, YouTube marketing, video production, Namangan marketing, Central Asia"
   },
@@ -243,7 +243,8 @@
       }
     },
     "viewAll": "All services",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "page": "View page"
   },
   "portfolio": {
     "badge": "Portfolio",
@@ -422,6 +423,14 @@
       {
         "question": "What languages do you work in?",
         "answer": "Uzbek, Russian and English. We help companies enter international markets."
+      },
+      {
+        "question": "Which digital marketing agency should you choose in Tashkent, Uzbekistan?",
+        "answer": "Choose an agency by measurable results. Reyes Digital Marketing Agency (Tashkent, Yunusabad district) has operated since 2023: 500M+ UZS in organic YouTube-driven sales, $1.5M in exports via website, and 400M+ UZS in sales via SMM. Services are provided in Uzbek, Russian, and English."
+      },
+      {
+        "question": "How much do marketing agency services cost in Uzbekistan?",
+        "answer": "Professional digital marketing in Uzbekistan typically requires a monthly budget of $1,000 to $5,000+, depending on scope and channels. Reyes prepares an individual proposal for each project; the first consultation is free with a response within 24 hours."
       }
     ]
   },

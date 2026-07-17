@@ -51,14 +51,18 @@ export function Reveal({ children, delay = 0, direction = 'up', className = '' }
 }
 
 export function Counter({ end, suffix = '' }: { end: string; suffix?: string }) {
-  const [count, setCount] = useState(0);
+  const num = parseInt(end.replace(/[^0-9]/g, '')) || 0;
+  // SEO: server render va JS ishlamagan holatda yakuniy qiymat ko'rinadi ("0M+" emas).
+  // Animatsiya faqat brauzerda, element ko'ringanda ishga tushadi.
+  const [count, setCount] = useState(num);
+  const [animated, setAnimated] = useState(false);
   const [ref, visible] = useInView();
 
   useEffect(() => {
-    if (!visible) return;
-    const num = parseInt(end.replace(/[^0-9]/g, ''));
-    if (!num) return;
+    if (!visible || animated || !num) return;
+    setAnimated(true);
     let current = 0;
+    setCount(0);
     const step = Math.max(1, Math.floor(num / 50));
     const timer = setInterval(() => {
       current += step;
@@ -66,7 +70,7 @@ export function Counter({ end, suffix = '' }: { end: string; suffix?: string }) 
       else setCount(current);
     }, 30);
     return () => clearInterval(timer);
-  }, [visible, end]);
+  }, [visible, animated, num]);
 
   return <span ref={ref}>{count}{suffix}</span>;
 }

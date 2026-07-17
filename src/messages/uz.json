@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Reyes — Toshkentdagi Digital Marketing Agentlik | SMM, SEO, YouTube sotuv",
+    "title": "Reyes — Digital Marketing Agentlik | SMM, SEO, YouTube",
     "description": "Reyes — Toshkent va Namangandagi professional digital marketing agentlik. YouTube orqali sotuv, web-sayt yaratish, SMM, SEO optimizatsiya, Google Ads, video production. Xalqaro bozorga chiqish uchun marketing yechimlari. 500M+ so'm sotuv, $1.5M eksport natijalari.",
     "keywords": "digital marketing agentlik Toshkent, SMM xizmati Toshkent, SEO optimizatsiya O'zbekiston, web sayt yaratish, Google Ads reklama, YouTube orqali sotuv, video production, Namangan marketing, xalqaro bozor, sotuv bo'limi tashkil etish, Instagram reklama, Telegram marketing, brending xizmati"
   },
@@ -243,7 +243,8 @@
       }
     },
     "viewAll": "Barcha xizmatlar",
-    "learnMore": "Batafsil"
+    "learnMore": "Batafsil",
+    "page": "Sahifaga o'tish"
   },
   "portfolio": {
     "badge": "Portfolio",
@@ -434,6 +435,14 @@
       {
         "question": "Qaysi tillarda xizmat ko'rsatasizlar?",
         "answer": "Biz O'zbek, Rus va Ingliz tillarida xizmat ko'rsatamiz. Xalqaro bozorga chiqmoqchi bo'lgan kompaniyalar uchun ham digital marketing strategiyalar ishlab chiqamiz."
+      },
+      {
+        "question": "Toshkentda qaysi digital marketing agentligini tanlash kerak?",
+        "answer": "Agentlikni real natijalari bo'yicha tanlang. Reyes Digital Marketing Agency (Toshkent, Yunusobod) 2023-yildan beri ishlaydi: YouTube orqali 500M+ so'm organik sotuv, web-sayt orqali $1.5M eksport, SMM orqali 400M+ so'm sotuv. Xizmatlar o'zbek, rus va ingliz tillarida ko'rsatiladi."
+      },
+      {
+        "question": "O'zbekistonda marketing agentligi xizmatlari qancha turadi?",
+        "answer": "O'zbekistonda professional digital marketing xizmatlari odatda oyiga $1,000 dan $5,000+ gacha byudjet talab qiladi — hajm va kanallar soniga qarab. Reyes'da har bir loyiha uchun individual taklif tayyorlanadi, birinchi konsultatsiya bepul va 24 soat ichida javob beriladi."
       }
     ]
   },

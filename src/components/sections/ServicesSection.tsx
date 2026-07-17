@@ -1,16 +1,29 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useLocale, useTranslations } from 'next-intl';
 import { Reveal, Parallax } from '@/components/ui/Animation';
 import SpotlightCard from '@/components/ui/SpotlightCard';
 import { IconYoutube, IconGlobe, IconSmartphone, IconVideo, IconSearch, IconBarChart, IconUsers, IconArrowRight, IconChevronDown } from '@/components/ui/Icons';
 
 const serviceKeys = ['youtube', 'web', 'smm', 'video', 'seo', 'ads', 'sales', 'international'] as const;
+// Har bir karta o'z xizmat sahifasiga olib boradi — ichki linking va SEO uchun
+const serviceSlugs: Record<(typeof serviceKeys)[number], string> = {
+  youtube: 'youtube-orqali-sotuv',
+  web: 'web-sayt-orqali-sotuv',
+  smm: 'smm-marketing',
+  video: 'video-production',
+  seo: 'seo-optimizatsiya',
+  ads: 'google-ads',
+  sales: 'sotuv-bolimi-tashkil-etish',
+  international: 'xalqaro-bozorga-chiqish',
+};
 const serviceIcons = [IconYoutube, IconGlobe, IconSmartphone, IconVideo, IconSearch, IconBarChart, IconUsers, IconGlobe];
 
 export default function ServicesSection() {
   const t = useTranslations('services');
+  const locale = useLocale();
   const [expanded, setExpanded] = useState<string | null>(null);
 
   return (
@@ -79,17 +92,30 @@ export default function ServicesSection() {
                         </div>
                       </div>
 
-                      <button className="inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue group-hover:gap-2 transition-all mt-1">
-                        {isExpanded ? 'Yopish' : t('learnMore')}
-                        <IconChevronDown size={14} className={`transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-                      </button>
+                      <div className="flex items-center justify-between mt-1">
+                        <button className="inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue group-hover:gap-2 transition-all">
+                          {isExpanded ? 'Yopish' : t('learnMore')}
+                          <IconChevronDown size={14} className={`transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
+                        </button>
+                        <Link
+                          href={`/${locale}/xizmatlar/${serviceSlugs[key]}`}
+                          onClick={(e) => e.stopPropagation()}
+                          className="inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue hover:gap-2 transition-all"
+                        >
+                          {t('page')} <IconArrowRight size={14} />
+                        </Link>
+                      </div>
                     </>
                   )}
 
                   {bullets.length === 0 && (
-                    <span className="inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue group-hover:gap-2 transition-all">
+                    <Link
+                      href={`/${locale}/xizmatlar/${serviceSlugs[key]}`}
+                      onClick={(e) => e.stopPropagation()}
+                      className="inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue group-hover:gap-2 transition-all"
+                    >
                       {t('learnMore')} <IconArrowRight size={14} />
-                    </span>
+                    </Link>
                   )}
                 </SpotlightCard>
               </Reveal>

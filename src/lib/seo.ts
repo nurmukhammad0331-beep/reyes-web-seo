@@ -4,7 +4,8 @@ import { locales, localeHrefLang, type Locale } from './i18n-config';
 // ===== SITE CONFIG =====
 export const siteConfig = {
   name: 'Reyes Digital Marketing Agency',
-  url: 'https://reyesagency.uz',
+  shortName: 'Reyes Digital',
+  url: 'https://www.reyesdigital.uz',
   ogImage: '/images/og-reyes.jpg',
   phone: '+998770077656',
   email: 'info@reyes.uz',
@@ -183,13 +184,21 @@ interface MetaProps {
 export function generatePageMetadata({ locale, title, description, path = '', image, keywords, noIndex = false, type = 'website' }: MetaProps): Metadata {
   const url = `${siteConfig.url}/${locale}${path}`;
   const ogImage = image || siteConfig.ogImage;
-  const allKeywords = [...(keywords || []), ...seoKeywords[locale].primary, ...seoKeywords[locale].geo];
+  // Meta keywords: Google e'tiborga olmaydi — faqat sahifaga xos 8-10 ta so'z qoldiramiz.
+  // To'liq seoKeywords ro'yxati kontent va sahifa rejalashtirish uchun ishlatiladi, meta uchun emas.
+  const allKeywords = (keywords || []).slice(0, 10);
 
+  // Title'da brend takrorlanmasligi uchun: sarlavhada "Reyes" bo'lsa suffix qo'shilmaydi
+  const fullTitle = title.includes('Reyes') ? title : `${title} | ${siteConfig.shortName}`;
+
+  // Hreflang: har bir til + x-default (asosiy til — uz)
   const alternates: Record<string, string> = {};
   locales.forEach(loc => { alternates[localeHrefLang[loc]] = `${siteConfig.url}/${loc}${path}`; });
+  alternates['x-default'] = `${siteConfig.url}/uz${path}`;
 
   return {
-    title: `${title} | ${siteConfig.name}`,
+    metadataBase: new URL(siteConfig.url),
+    title: fullTitle,
     description,
     keywords: allKeywords.join(', '),
     authors: [{ name: siteConfig.name }],
@@ -201,10 +210,10 @@ export function generatePageMetadata({ locale, title, description, path = '', im
     alternates: { canonical: url, languages: alternates },
     openGraph: {
       type, locale: locale === 'uz' ? 'uz_UZ' : locale === 'ru' ? 'ru_RU' : 'en_US',
-      url, title: `${title} | ${siteConfig.name}`, description, siteName: siteConfig.name,
+      url, title: fullTitle, description, siteName: siteConfig.name,
       images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
     },
-    twitter: { card: 'summary_large_image', title: `${title} | ${siteConfig.name}`, description, images: [ogImage] },
+    twitter: { card: 'summary_large_image', title: fullTitle, description, images: [ogImage] },
   };
 }
 
@@ -258,7 +267,6 @@ export function organizationSchema() {
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'International Market Entry', description: 'Xalqaro bozorga chiqish uchun digital strategiya' } },
       ],
     },
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '47', bestRating: '5' },
   };
 }
 
