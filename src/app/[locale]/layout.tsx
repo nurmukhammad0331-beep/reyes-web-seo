@@ -1,5 +1,6 @@
 import { Space_Grotesk, DM_Sans } from 'next/font/google';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 import { locales, localeHtmlLang, type Locale } from '@/lib/i18n-config';
@@ -68,6 +69,7 @@ export default async function LocaleLayout({
           <Footer locale={locale} />
           <ScrollToTop />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );

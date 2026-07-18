@@ -36,6 +36,12 @@ export default function Header({ locale }: { locale: Locale }) {
     return () => window.removeEventListener('scroll', fn);
   }, []);
 
+  // Mobil menyu ochiq paytda orqa fon aylanmasin
+  useEffect(() => {
+    document.body.style.overflow = menu ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [menu]);
+
   useEffect(() => {
     const ids = ['hero', 'xizmatlar', 'haqimizda', 'boglanish'];
     const obs = new IntersectionObserver(
@@ -70,7 +76,11 @@ export default function Header({ locale }: { locale: Locale }) {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-400 ${
-      scrolled ? 'bg-dark-bg/90 backdrop-blur-xl border-b border-dark-border py-3.5' : 'bg-transparent py-6'
+      // Muhim: menyu ochiq paytda backdrop-blur o'chiriladi — backdrop-filter
+      // ichidagi fixed element viewport'ga emas, header'ga bog'lanib qolardi
+      menu
+        ? 'bg-dark-bg py-3.5'
+        : scrolled ? 'bg-dark-bg/90 backdrop-blur-xl border-b border-dark-border py-3.5' : 'bg-transparent py-6'
     }`}>
       <div className="container-main flex items-center justify-between">
         {/* Logo */}
@@ -171,7 +181,7 @@ export default function Header({ locale }: { locale: Locale }) {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`lg:hidden fixed inset-0 bg-dark-bg z-[150] pt-24 px-6 pb-8 flex flex-col gap-1 transition-transform duration-400 ${
+      <div className={`lg:hidden fixed inset-0 bg-dark-bg z-[150] pt-24 px-6 pb-8 flex flex-col gap-1 overflow-y-auto transition-transform duration-400 ${
         menu ? 'translate-x-0' : 'translate-x-full'
       }`}>
         {navLinks.map((l) => (
