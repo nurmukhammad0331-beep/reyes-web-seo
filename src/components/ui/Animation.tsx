@@ -51,24 +51,31 @@ export function Reveal({ children, delay = 0, direction = 'up', className = '' }
 }
 
 export function Counter({ end, suffix = '' }: { end: string; suffix?: string }) {
-  const [count, setCount] = useState(0);
-  const [ref, visible] = useInView();
+  const num = parseInt(end.replace(/[^0-9]/g, '')) || 0;
+  // SEO va ishonchlilik: boshlang'ich qiymat = yakuniy raqam (SSR'da "0M+" chiqmaydi).
+  // Animatsiya mount'dan keyin rAF bilan ishlaydi va HAR QANDAY holatda
+  // yakuniy raqamda tugaydi — IntersectionObserver'ga bog'liq emas.
+  const [count, setCount] = useState(num);
 
   useEffect(() => {
-    if (!visible) return;
-    const num = parseInt(end.replace(/[^0-9]/g, ''));
     if (!num) return;
-    let current = 0;
-    const step = Math.max(1, Math.floor(num / 50));
-    const timer = setInterval(() => {
-      current += step;
-      if (current >= num) { setCount(num); clearInterval(timer); }
-      else setCount(current);
-    }, 30);
-    return () => clearInterval(timer);
-  }, [visible, end]);
+    let raf = 0;
+    const duration = 1200;
+    let start = 0;
+    const tick = (ts: number) => {
+      if (!start) start = ts;
+      const p = Math.min((ts - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      setCount(Math.round(num * eased));
+      if (p < 1) raf = requestAnimationFrame(tick);
+    };
+    const delay = setTimeout(() => { raf = requestAnimationFrame(tick); }, 300);
+    // Qat'iy kafolat: 2 soniyadan keyin baribir yakuniy qiymat
+    const failsafe = setTimeout(() => setCount(num), 2000);
+    return () => { clearTimeout(delay); clearTimeout(failsafe); cancelAnimationFrame(raf); };
+  }, [num]);
 
-  return <span ref={ref}>{count}{suffix}</span>;
+  return <span>{count}{suffix}</span>;
 }
 
 /**
@@ -181,12 +188,27 @@ export function WordsReveal({
   step?: number;
 }) {
   const [ref, visible] = useInView(0.2);
-  const words = text.split(' ').filter(Boolean);
+  // Uzun defisli so'zlar ("digital-маркетинга") inline-block ichida ikki qatorga
+  // bo'linib katta bo'sh joy hosil qilmasligi uchun defisdan keyin alohida bo'lakka ajratamiz
+  const words = text
+    .split(' ')
+    .filter(Boolean)
+    .flatMap((w) => {
+      if (!w.includes('-') || w.length <= 12) return [w];
+      const parts: string[] = [];
+      let buf = '';
+      for (const ch of w) {
+        buf += ch;
+        if (ch === '-') { parts.push(buf); buf = ''; }
+      }
+      if (buf) parts.push(buf);
+      return parts;
+    });
 
   return (
     <span ref={ref as any} style={{ display: 'inline' }}>
       {words.map((w, i) => (
-        <span key={i} style={{ display: 'inline-block', overflow: 'hidden', verticalAlign: 'bottom' }}>
+        <span key={i} style={{ display: 'inline-block', overflow: 'hidden', verticalAlign: 'bottom', whiteSpace: 'nowrap' }}>
           {/* Gradient/rang klassi bg-clip-text to'g'ri ishlashi uchun
               aynan matn turgan ichki spanga beriladi */}
           <span
@@ -201,7 +223,7 @@ export function WordsReveal({
           >
             {w}
           </span>
-          {i < words.length - 1 ? '\u00A0' : ''}
+          {i < words.length - 1 && !w.endsWith('-') ? '\u00A0' : ''}
         </span>
       ))}
     </span>
