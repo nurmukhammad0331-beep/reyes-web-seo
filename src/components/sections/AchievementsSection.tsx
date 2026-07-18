@@ -9,7 +9,7 @@ export default function AchievementsSection() {
 
   const stats = [
     { Icon: IconYoutube, value: '500', suffix: 'M+', label: t('sales.label'), useCounter: true, color: '#ff6b6b' },
-    { Icon: IconBarChart, value: '2.5M+', suffix: '', label: t('views.label'), useCounter: false, color: '#22d3ee' },
+    { Icon: IconBarChart, value: '3.5M+', suffix: '', label: t('views.label'), useCounter: false, color: '#22d3ee' },
     { Icon: IconGlobe, value: '$1.5M', suffix: '', label: t('export.label'), useCounter: false, color: '#4ade80' },
   ];
 

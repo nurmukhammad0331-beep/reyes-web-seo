@@ -46,7 +46,7 @@ export default function PortfolioSection() {
                 aria-label={t('featured.title')}
               >
                 <Image
-                  src="/images/portfolio/youtube/yt-analytics.png"
+                  src="/images/portfolio/youtube/yt-steam.png"
                   alt={t('featured.title')}
                   width={825}
                   height={594}

@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { IconInstagram, IconYoutube, IconTelegram, IconPhone, IconMapPin } from '@/components/ui/Icons';
 import type { Locale } from '@/lib/i18n-config';
+import { siteConfig } from '@/lib/seo';
 
 export default function Footer({ locale }: { locale: Locale }) {
   const t = useTranslations('footer');
@@ -27,11 +28,11 @@ export default function Footer({ locale }: { locale: Locale }) {
             <p className="text-[15px] leading-relaxed text-slate-400 mb-6">{t('description')}</p>
             <div className="flex gap-2.5">
               {[
-                { Icon: IconInstagram, href: '#' },
-                { Icon: IconYoutube, href: '#' },
-                { Icon: IconTelegram, href: '#' },
-              ].map(({ Icon, href }, i) => (
-                <a key={i} href={href} target="_blank" rel="noopener noreferrer"
+                { Icon: IconInstagram, href: siteConfig.socials.instagram, label: 'Instagram' },
+                { Icon: IconYoutube, href: siteConfig.socials.youtube, label: 'YouTube' },
+                { Icon: IconTelegram, href: siteConfig.socials.telegram, label: 'Telegram' },
+              ].map(({ Icon, href, label }, i) => (
+                <a key={i} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
                   className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-slate-500 hover:bg-brand-blue/15 hover:text-brand-blue hover:border-brand-blue/20 transition-all">
                   <Icon size={18} />
                 </a>
